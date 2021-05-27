@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        // todo read about https://www.typescriptlang.org/tsconfig#rootDirs
+        "target": "ES2020",
+        // module
+        "module": "ES2020",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        //
+        "jsx": "react",
+        // "jsx": "react-jsx",
+        "noEmit": true,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
+        "stripInternal": true,
+        "strict": true,
+        "noImplicitAny": false, // linter rule needed
+        "allowUnreachableCode": true,
+        "noImplicitReturns": true, // would be great to check
+        "noImplicitOverride": true,
+        "forceConsistentCasingInFileNames": true, //still very buggy. might be commented
+        "noUncheckedIndexedAccess": true,
+        // "noPropertyAccessFromIndexSignature": true // I don't think that I need that
+        // "keyofStringsOnly": true
+        // "noErrorTruncation": true // could be useful sometimes
+        // todo linter ban usage { [k: ] }
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@zardoy/tsconfig",
+  "version": "0.0.1",
+  "description": "Shared TypeScript config for my projects",
+  "repository": "https://github.com/zardoy/tsconfig.git",
+  "author": "Vitaly Turovsky <vital2580@icloud.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "tsconfig.json",
+    "tsconfig-*.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "peerDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "typed-query-selector": "^2.6.0"
+  }
+}
