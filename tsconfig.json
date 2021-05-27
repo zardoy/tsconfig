@@ -20,6 +20,9 @@
         "noImplicitOverride": true,
         "forceConsistentCasingInFileNames": true, //still very buggy. might be commented
         "noUncheckedIndexedAccess": true,
+        "types": [
+            "@zardoy/tsconfig"
+        ]
         // "noPropertyAccessFromIndexSignature": true // I don't think that I need that
         // "keyofStringsOnly": true
         // "noErrorTruncation": true // could be useful sometimes
