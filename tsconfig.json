@@ -26,6 +26,6 @@
         // todo linter ban usage { [k: ] }
     },
     "include": [
-        "src"
+        "../../../src"
     ]
 }
