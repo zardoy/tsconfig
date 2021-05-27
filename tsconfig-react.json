@@ -6,7 +6,8 @@
             "DOM"
         ],
         "types": [
-            "typed-query-selector/strict"
+            "typed-query-selector/strict",
+            "@zardoy/tsconfig"
         ]
     }
 }

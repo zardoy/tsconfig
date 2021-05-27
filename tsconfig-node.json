@@ -3,5 +3,8 @@
     "compilerOptions": {
         "target": "ES2019", // Node.js 12
         "noEmit": false, // doc
+        "types": [
+            "@zardoy/tsconfig"
+        ]
     }
 }
