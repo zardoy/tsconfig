@@ -1,6 +1,6 @@
 {
   "name": "@zardoy/tsconfig",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Shared TypeScript config for my projects",
   "repository": "https://github.com/zardoy/tsconfig.git",
   "author": "Vitaly Turovsky <vital2580@icloud.com>",
@@ -10,10 +10,10 @@
   },
   "types": "index.d.ts",
   "main": "index.d.ts",
-  "files": [
-    "tsconfig.json",
-    "tsconfig-*.json"
-  ],
+  "scripts": {
+    "prepublishOnly": "node preparePresets.mjs pre",
+    "postpublish": "node preparePresets.mjs post"
+  },
   "keywords": [
     "tsconfig",
     "typescript",
@@ -26,5 +26,13 @@
   },
   "dependencies": {
     "typed-query-selector": "^2.6.0"
-  }
+  },
+  "devDependencies": {
+    "jsonfile": "^6.1.0"
+  },
+  "files": [
+    "tsconfig.json",
+    "react.json",
+    "node.json"
+  ]
 }

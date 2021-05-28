@@ -2,6 +2,18 @@
 
 By default all presets have `noEmit: true`, so `tsc` is only for type-checking, but not in Node preset.
 
+## Usage
+
+Usage:
+
+```ts
+{
+    extends: "@zardoy/tsconfig/react"
+}
+```
+
+Available presets: `react`, `node`
+
 ## Heads up
 
 This project includes `index.d.ts` files, which **globally** changes typings for `entries` and `fromEntries`.
