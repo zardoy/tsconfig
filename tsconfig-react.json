@@ -7,7 +7,9 @@
         ],
         "types": [
             "typed-query-selector/strict",
-            "@zardoy/tsconfig"
+            "@zardoy/tsconfig",
+            "@types/*",
+            "*"
         ]
     }
 }
