@@ -5,7 +5,9 @@
         "outDir": "../../../build",
         "noEmit": false, // doc
         "types": [
-            "@zardoy/tsconfig"
+            "@zardoy/tsconfig",
+            "@types/*",
+            "*"
         ]
     }
 }
