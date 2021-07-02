@@ -2,7 +2,7 @@
   "name": "@zardoy/tsconfig",
   "version": "0.2.1",
   "description": "Shared TypeScript config for my projects",
-  "repository": "https://github.com/zardoy/tsconfig.git",
+  "repository": "zardoy/tsconfig",
   "author": "Vitaly Turovsky <vital2580@icloud.com>",
   "license": "MIT",
   "engines": {
