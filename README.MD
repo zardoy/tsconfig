@@ -1,6 +1,6 @@
 # My TSConfig presets
 
-By default all presets have `noEmit: true`, so `tsc` is only for type-checking, but not in Node preset.
+Default and `react` preset have `noEmit: true`, so `tsc` is only for type-checking. Use Vite or esbuild for the actual compiling, it would save you a lot of time.
 
 ## Usage
 
