@@ -1,5 +1,7 @@
 # My TSConfig presets
 
+> Doesn't follow semver!
+
 Default and `react` preset have `noEmit: true`, so `tsc` is only for type-checking. Use Vite or esbuild for the actual compiling, it would save you a lot of time.
 
 ## Usage
@@ -16,12 +18,10 @@ Available presets: `react`, `node`
 
 ## Heads up
 
-This project includes `index.d.ts` files, which **globally** changes typings for `entries` and `fromEntries`.
+This project includes `index.d.ts` files, which **globally** improves typings for `entries` and `fromEntries`.
 
-## Featured options
+<!-- - `--generateCpuProfile tsc-output.cpuprofile`, `--extendedDiagnostics` -->
 
-- `--generateCpuProfile tsc-output.cpuprofile`, `--extendedDiagnostics`
-
-## Interesting things
+## Interesting facts
 
 You can use generics in JSX Components: ` <Button<number> someProp={5} /> `
