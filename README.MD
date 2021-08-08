@@ -14,7 +14,7 @@ Usage:
 }
 ```
 
-Available presets: `react`, `node`
+Available presets: `react`, `node`, `node-lib`.
 
 ## Heads up
 

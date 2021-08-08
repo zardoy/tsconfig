@@ -3,7 +3,7 @@
 import * as fs from "fs";
 import jsonfile from "jsonfile";
 
-const presets = "react node".split(" ")
+const presets = "react node node-lib".split(" ")
 
 /** @type{"pre" | "post"} */
 const stage = process.argv[2];

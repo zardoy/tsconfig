@@ -31,6 +31,7 @@
   "files": [
     "tsconfig.json",
     "react.json",
-    "node.json"
+    "node.json",
+    "node-lib.json"
   ]
 }
