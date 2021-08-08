@@ -24,9 +24,7 @@
   "peerDependencies": {
     "typescript": "^4.3.2"
   },
-  "dependencies": {
-    "typed-query-selector": "^2.6.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jsonfile": "^6.1.0"
   },

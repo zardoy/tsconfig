@@ -4,8 +4,6 @@
         "target": "ES2019", // Node.js 12
         "module": "CommonJS",
         "esModuleInterop": true,
-        "outDir": "../../../build",
-        "noEmit": false, // doc
         "types": [
             "@zardoy/tsconfig",
             "node"
