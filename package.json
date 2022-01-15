@@ -1,36 +1,36 @@
 {
-  "name": "@zardoy/tsconfig",
-  "version": "0.2.1",
-  "description": "Shared TypeScript config for my projects",
-  "repository": "zardoy/tsconfig",
-  "author": "Vitaly Turovsky <vital2580@icloud.com>",
-  "license": "MIT",
-  "engines": {
-    "node": ">=12"
-  },
-  "types": "index.d.ts",
-  "main": "index.d.ts",
-  "scripts": {
-    "prepublishOnly": "node preparePresets.mjs pre",
-    "postpublish": "node preparePresets.mjs post"
-  },
-  "keywords": [
-    "tsconfig",
-    "typescript",
-    "ts",
-    "config",
-    "configuration"
-  ],
-  "peerDependencies": {
-    "typescript": "^4.3.2"
-  },
-  "files": [
-    "tsconfig.json",
-    "react.json",
-    "node.json",
-    "node-lib.json"
-  ],
-  "dependencies": {
-    "modify-json-file": "^1.2.2"
-  }
+    "name": "@zardoy/tsconfig",
+    "version": "0.2.1",
+    "description": "Shared TypeScript config for my projects",
+    "repository": "zardoy/tsconfig",
+    "author": "Vitaly Turovsky <vital2580@icloud.com>",
+    "license": "MIT",
+    "engines": {
+        "node": ">=12"
+    },
+    "types": "index.d.ts",
+    "main": "index.d.ts",
+    "scripts": {
+        "prepublishOnly": "node preparePresets.mjs pre",
+        "postpublish": "node preparePresets.mjs post"
+    },
+    "keywords": [
+        "tsconfig",
+        "typescript",
+        "ts",
+        "config",
+        "configuration"
+    ],
+    "peerDependencies": {
+        "typescript": "^4.5.4"
+    },
+    "files": [
+        "tsconfig.json",
+        "react.json",
+        "node.json",
+        "node-lib.json"
+    ],
+    "dependencies": {
+        "modify-json-file": "^1.2.2"
+    }
 }
