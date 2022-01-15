@@ -1,6 +1,6 @@
 {
     "name": "@zardoy/tsconfig",
-    "version": "0.2.2",
+    "version": "1.2.3",
     "description": "Shared TypeScript config for my projects",
     "author": "Vitaly Turovsky <vital2580@icloud.com>",
     "license": "MIT",
