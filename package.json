@@ -29,7 +29,7 @@
         "node.json",
         "node-lib.json"
     ],
-    "dependencies": {
+    "devDependencies": {
         "modify-json-file": "^1.2.2"
     }
 }
