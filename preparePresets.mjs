@@ -1,26 +1,26 @@
 //@ts-check
+import * as fs from 'fs'
+import { modifyPackageJsonFile } from 'modify-json-file'
 
-import * as fs from "fs";
-import jsonfile from "jsonfile";
-
-const presets = "react node node-lib".split(" ")
+const presets = 'react node node-lib'.split(' ')
 
 /** @type{"pre" | "post"} */
-const stage = process.argv[2];
+// @ts-ignore
+const stage = process.argv[2]
 
-const pkg = await jsonfile.readFile("package.json")
-pkg.files = [
-    "tsconfig.json",
-    ...(presets.map(p => `${p}.json`))
-];
-await jsonfile.writeFile("package.json", pkg, { spaces: 2 });
+await modifyPackageJsonFile(
+    { dir: '.' },
+    {
+        files: ['tsconfig.json', ...presets.map(p => `${p}.json`)],
+    },
+)
 
-for (let preset of presets) {
-    const presetTsconfig = `tsconfig-${preset}.json`;
+for (const preset of presets) {
+    const presetTsconfig = `tsconfig-${preset}.json`
     const presetPublish = `${preset}.json`
-    if (stage === "pre") {
-        await fs.promises.rename(presetTsconfig, presetPublish);
+    if (stage === 'pre') {
+        await fs.promises.rename(presetTsconfig, presetPublish)
     } else {
-        await fs.promises.rename(presetPublish, presetTsconfig);
+        await fs.promises.rename(presetPublish, presetTsconfig)
     }
 }

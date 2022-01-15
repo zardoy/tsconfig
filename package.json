@@ -24,14 +24,13 @@
   "peerDependencies": {
     "typescript": "^4.3.2"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "jsonfile": "^6.1.0"
-  },
   "files": [
     "tsconfig.json",
     "react.json",
     "node.json",
     "node-lib.json"
-  ]
+  ],
+  "dependencies": {
+    "modify-json-file": "^1.2.2"
+  }
 }
