@@ -8,7 +8,6 @@
         "moduleResolution": "node",
         //
         "jsx": "react",
-        // "jsx": "react-jsx",
         "noEmit": true,
         "noEmitOnError": true,
         "skipLibCheck": true,
