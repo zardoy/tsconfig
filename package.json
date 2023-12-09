@@ -21,7 +21,7 @@
         "configuration"
     ],
     "peerDependencies": {
-        "typescript": "^4.5.4"
+        "typescript": "*"
     },
     "files": [
         "tsconfig.json",

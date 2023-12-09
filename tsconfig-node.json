@@ -1,7 +1,7 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "target": "ES2019", // Node.js 12
+        "target": "ES2023", // Node.js 18
         "module": "CommonJS",
         "esModuleInterop": true,
         "types": [
